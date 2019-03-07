@@ -57,7 +57,7 @@ python3 top_papers.py 2017-05-01 100 > top100papers.txt
 ```
 
 ### Citation Count Prediction as Regression on Text Embeddings
-This is not part of the part, but nonetheless included in this repository.
+**This is not part of the part, but nonetheless included in this repository.**
 
 Step 1: get the text embeddings (for Infersent first downlod the [repository](https://github.com/facebookresearch/InferSent) and copy the models.py to this project):
 ```
