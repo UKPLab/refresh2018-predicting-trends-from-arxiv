@@ -27,7 +27,7 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 
 ## Project Description
 
-This project finds creates a list of the most influential papers
+This project creates a list of the most influential papers
 (defined by having a high [z-score](https://arxiv.org/abs/1310.8220))
 in an [Arxiv comuter science category](https://arxiv.org/corr/home).
 
