@@ -56,8 +56,11 @@ For example, to print the top 100 papers starting from the first may 2017 and sa
 python3 top_papers.py 2017-05-01 100 > top100papers.txt
 ```
 
-### Citation Count Prediction as Regression on Text Embeddings
-**This is not part of the part, but nonetheless included in this repository.**
+## Human annotations
+Our human classification of the top-Arxiv papers into categories _method_, _task_, and _goals_ can be found in the directory `human_annotations`
+
+## Citation Count Prediction as Regression on Text Embeddings
+**(This is not part of the paper, but nonetheless included in this repository.)**
 
 Step 1: get the text embeddings (for Infersent first downlod the [repository](https://github.com/facebookresearch/InferSent) and copy the models.py to this project):
 ```
