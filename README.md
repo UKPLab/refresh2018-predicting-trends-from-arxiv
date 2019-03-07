@@ -29,7 +29,7 @@ python3 top_papers.py 2017-05-01 100 > top100papers.txt
 If you just want to have the top papers list you can also use [this](https://git.ukp.informatik.tu-darmstadt.de/netzer/top-arxiv-papers).
 
 ### Citation Count Prediction as Regression on Text Embeddings
-Step 1: get the text embeddings(for Infersent first downlod the [repository](https://github.com/facebookresearch/InferSent) and copy the models.py to this project):
+Step 1: get the text embeddings (for Infersent first downlod the [repository](https://github.com/facebookresearch/InferSent) and copy the models.py to this project):
 ```
 python3 encode_sentences.py -h
 ```
