@@ -13,9 +13,10 @@ To update citations and z-scores for the papers already in the dataset run:
 python3 update_dataset.py -um 2017-05-01
 ```
 
-Use the --category argument to change the [category](https://arxiv.org/corr/home)(default cs.LG).
-In this case the papers will start from 2017-05-01(YYYY-MM-DD). To keep the database update you can just run update_database.py
-with the --newpapersstartdate (-np) set to the date you last ran it and then update with --updatemetastartdate (-um) the papers for the time you are interested in.
+Use the --category argument to change the [category](https://arxiv.org/corr/home) (default cs.LG).
+In this case the papers will start from 2017-05-01(YYYY-MM-DD). To keep the database update you can just run `update_database.py`
+with the `--newpapersstartdate` (-np) set to the date you last ran it and then update with `--updatemetastartdate` (-um) the papers for the time you are interested in.
+
 ### Get the top papers:
 To print the papers with the top z-scores see:
 ```
