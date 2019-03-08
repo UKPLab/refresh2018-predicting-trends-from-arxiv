@@ -1,17 +1,18 @@
 # Predicting Research Trends From Arxiv
 
-This repository contains selected code and data for our [ReFresh](http://refresh.kmi.open.ac.uk/) workshop paper on [Predicting Research Trends From Arxiv](http://).
+This repository contains selected code and data for our [ReFresh](http://refresh.kmi.open.ac.uk/) workshop paper on [Predicting Research Trends From Arxiv](https://arxiv.org/abs/1903.02831).
 
 ## Citation
 
 ```
-@unpublished{Eger_arixv:2018,
+@inproceedings{Eger_arixv:2018,
            month = {December},
            title = {Predicting Research Trends From Arxiv},
             year = {2018},
        booktitle = {1st Workshop on Reframing Research},
           author = {Steffen Eger and Chao Li and Florian Netzer and Iryna Gurevych},
-             url = {http://tubiblio.ulb.tu-darmstadt.de/110006/}
+             url = {https://arxiv.org/abs/1903.02831},
+             location = {Bonn, Germany}
 }
 ```
 > **Abstract:** We perform trend detection on two datasets of Arxiv papers, derived from its machine learning (cs.LG) and natural language processing (cs.CL) categories. Our approach is bottom-up: we first rank papers by their normalized citation counts, then group top-ranked papers into different categories based on the tasks that they pursue and the methods they use. We then analyze these resulting topics. We find that the dominating paradigm in cs.CL revolves around \emph{natural language generation} problems and those in cs.LG revolve around \emph{reinforcement learning} and \emph{adversarial principles}. By extrapolation, we predict that these topics will remain lead problems/approaches in their fields in the short- and mid-term.  
