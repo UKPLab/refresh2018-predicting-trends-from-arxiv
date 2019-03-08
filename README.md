@@ -5,7 +5,7 @@ This repository contains selected code and data for our [ReFresh](http://refresh
 ## Citation
 
 ```
-@inproceedings{Eger_arixv:2018,
+@inproceedings{Eger_arxiv:2018,
            month = {December},
            title = {Predicting Research Trends From Arxiv},
             year = {2018},
