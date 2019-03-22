@@ -33,7 +33,7 @@ This project creates a list of the most influential papers
 in an [Arxiv comuter science category](https://arxiv.org/corr/home).
 
 ### Download the database and update citations and z-scores:
-To initialize the database/download new papers to it, run:
+To initialize the database/download new papers to it, run (NB **this may run several days**):
 ```bash
 python3 update_dataset.py -np 2017-05-01
 ```
